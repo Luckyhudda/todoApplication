@@ -1,0 +1,70 @@
+.mainBox{
+    text-align: center;
+}
+
+.todoHeading{
+    font-weight: bold;
+    margin-bottom: 1rem
+    ;
+}
+
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+.inputBox input{
+    outline: none;
+    border: 1px solid gray;
+    border-radius: .3rem;
+    height: 2rem;
+    margin: 0 12px;
+    padding: 0 .3rem;
+}
+
+.addBtn{
+    border: 1px solid rgb(8, 124, 226);
+    background: rgb(8, 124, 226);
+    color:rgb(244, 244, 244);
+    border-radius: .3rem;
+}
+.addBtn:hover{
+    border: 1px solid rgb(8, 124, 226);
+    background: transparent;
+    color:rgb(8, 124, 226);
+    border-radius: .3rem;
+}
+
+.todoList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+   margin: 12px auto;
+   border: 1px solid  gray;
+   width: 60%;
+   padding: .4rem;
+   border-radius: .3rem;
+}
+
+.todoitemValue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+.deleteBtn{
+    background: red;
+    border: none;
+    border-radius: .3rem;
+    color: #fff;
+}
+
+.overdue {
+  border-color: red;
+}
